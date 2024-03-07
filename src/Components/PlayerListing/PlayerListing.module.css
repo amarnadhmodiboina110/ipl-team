@@ -1,0 +1,38 @@
+/* Styling for the PlayersContainer */
+.PlayersContainer{
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.PlayersContainer h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.PlayersContainer h2 span{
+    padding: 10px 30px;
+    background-color: #152B52;
+}
+
+/* Styling for the search input */
+.SearchBox {
+    width: 350px;
+    margin: 10px 2%;
+    font-size: 1.3rem;
+    padding: 8px 15px;
+    border: 2px solid #2C0347;
+    border-radius: 8px;
+}
+
+/* Styling for list items */
+.Listitems {
+    color: rgb(14, 11, 11);
+    list-style-type: square;
+    padding: 5px 20px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1.3rem;
+} 

@@ -1,0 +1,24 @@
+/* Styles for the '.CardBody img' class */
+.CardBody img {
+    padding: 10px;
+    height: 220px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+    object-fit: contain;
+    transition: transform 0.1s ease;
+}
+
+
+
+/* Styles for the '.CardBody img' class when hovered */
+/* .CardBody img:hover {
+    transform: scale(1.1);
+} */
+
+/* Styles for the '.CardBody' class */
+.CardBody {
+    width: 100%;
+}

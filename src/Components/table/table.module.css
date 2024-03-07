@@ -1,0 +1,35 @@
+/* Apply styles to the table with class .teamTable */
+.teamTable {
+    font-size: 1.2em;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+/* Apply border styles to the table, table header (th), and table data (td) cells */
+.teamTable, th, td {
+    border: 1px solid #ccc;
+}
+
+/* Style the table header (thead) */
+.teamTable thead {
+    font-weight: bolder;
+}
+
+/* Style table header cells (th) within the thead */
+.teamTable thead tr th{
+    color: white;
+    background-color: #083688;
+    padding: 15px;
+}
+
+/* Style table data cells (td) within the tbody */
+.teamTable tbody tr td{
+    padding: 10px;
+}
+
+/* Apply background color on table rows when hovered */
+/* .teamTable tr:hover {
+    background-color: #f1eeee;
+} */

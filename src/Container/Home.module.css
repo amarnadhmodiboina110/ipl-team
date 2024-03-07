@@ -1,0 +1,17 @@
+/* Styles for the '.Home' class */
+.Home {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Styles for the '.MainSection' class */
+.MainSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: auto;
+    border: 2px solid #fff;
+    justify-content: space-evenly;
+    margin: 48px;
+    gap: 24px;
+}

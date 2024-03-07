@@ -1,0 +1,44 @@
+/* Styles for the '.headerContainer' class */
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    /* background-color: #001021; */
+    /* margin: 0px;
+  padding: 20px 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  background: #19398a; */
+  
+}
+
+/* Styles for elements with the '.headerContainer' class that have the '.headerTitle' class */
+.headerContainer .headerTitle {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: white;
+    font-family: serif;
+    width: 100%;
+    position: sticky;
+    padding: 0.5% 3%;
+    background: linear-gradient(
+      92.04deg,
+      #18184a 24.18%,
+      #19398a 50.95%,
+      #18184a 110.32%
+    );
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+}
+
+/* Styles for elements with the '.headerContainer' class that have the '.headerImage' class */
+.headerContainer .headerImage{
+    height: 77px;
+}

@@ -1,0 +1,102 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container for the team details */
+.WrapperContainer {
+    display: flex;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+/* Section for displaying content within the main container */
+.WrapperContainer section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for images within the section */
+.WrapperContainer section img{
+    border-radius: 25px;
+    height: 300px;
+    width: 230px;
+    margin: 20px;
+    transition: transform 0.2s ease;
+}
+
+/* .WrapperContainer section img:hover{
+    transform: scale(1.1);
+} */
+
+/* Aside container for additional information */
+.AsideContainer {
+    width: 350px;
+    height: 1030px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    padding: 0;
+    background-image: url("https://wallpapercave.com/wp/wp8827231.jpg"), url("https://w0.peakpx.com/wallpaper/687/482/HD-wallpaper-virat-kohli-rcb-thumbnail.jpg");
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+}
+
+
+.AsideContainer img {
+    height: 125px;
+    width: 275px;
+    margin: 0 75px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: -70px;
+    object-fit: contain;
+
+}
+
+/* Container for team information */
+.TeamInfoContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TeamInfoContainer p {
+    background-color: #F38D8D;
+    padding: auto 15px;
+    text-align: center;
+    margin: 5px;
+    width: 90%;
+    border-radius: 7px;
+    font-size: 1.4rem;
+}
+
+.TeamInfoContainer p span{
+    display: block;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+/* Styling for horizontal rules within paragraphs */
+.TeamInfoContainer p hr {
+    background-color: #000000;
+    border: none;
+    height: 1px;
+    width: 97%;
+    margin-left: 4px;
+    margin-bottom: 12px;
+}
